@@ -1,4 +1,14 @@
-const stateStorage = {}
+const stateStorage = {
+  userId: 1,
+  currentProjectId: 2,
+  couldDos: {
+    1: ['make my breakfast', 'eat my breakfast', 'relax'],
+    2: ['pick some flowers', 'eat some flowers', 'smell some flowers'],
+    3: ['call a friend', 'give unsolicited advice to people', 'make a painting']
+  },
+  projects: [],
+  currentCouldDoIndex: 0,
+}
 
 const globalState = {
 
